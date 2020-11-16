@@ -1,6 +1,6 @@
 client.on("guildMemberAdd", member => {
   let welcomer = member.guild.channels.find(
-  channel => channel.id ==  "734054843186020492"/////// id chanali welcom lera dani.ok dlm
+  channel => channel.id ==  "729450301559668847"/////// id chanali welcom lera dani.ok dlm
   );
   if (!welcomer) return;
   if (welcomer) {
@@ -21,3 +21,4 @@ client.on("guildMemberAdd", member => {
 
   }
 });
+client.login("NzU0NjExNTIyMTUxNTE0MjEz.X13Qvg.10RAtfVGHgDXVN_Wbbp4p51KadE")
